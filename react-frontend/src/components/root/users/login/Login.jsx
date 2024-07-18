@@ -96,7 +96,6 @@ const Login = () => {
   return (
     <>
       <main>
-        <form className={styles.form_style} onSubmit={loginClicked} method="GET">
           <div className={styles.loginh1}>
             <h1>Login</h1>
           </div>
@@ -162,7 +161,6 @@ const Login = () => {
               Login
             </button>
           )}
-        </form>
       </main>
       <Footer class={style.footer_cover} />
       <Background />
