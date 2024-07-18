@@ -2,7 +2,7 @@ import axios from "axios";
 
 const AuthenticateUserDataService = (username, password) => {
   return axios
-    .post(`http://localhost:8080/authenticate`, {
+    .post(`http://192.168.56.104:80/authenticate`, {
       username,
       password,
     })
