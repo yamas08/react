@@ -96,7 +96,7 @@ const Login = () => {
   return (
     <>
       <main>
-        <form className={styles.form_style}>
+        <form className={styles.form_style} onSubmit={loginClicked} method="GET">
           <div className={styles.loginh1}>
             <h1>Login</h1>
           </div>

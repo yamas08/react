@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HobbieBackendApplication<hobbie-backend>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "backend.hobbiebackend.HobbieBackendApplication",
+            "projectName": "hobbie-backend",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
