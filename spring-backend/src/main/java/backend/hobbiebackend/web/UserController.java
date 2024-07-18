@@ -32,7 +32,7 @@ import java.net.URLDecoder;
 import java.nio.charset.StandardCharsets;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://192.168.56.104:80")
 public class UserController {
     private final UserService userService;
     private final PasswordEncoder passwordEncoder;
